@@ -1,0 +1,45 @@
+"2023-11-05 17:23:33 [restartedMain] INFO  b.i.s.SpringprojectApplication - Starting SpringprojectApplication using Java 20.0.2 with PID 2764 (E:\Учеба ИСИТ\ПрогСП\springproject\target\classes started by User in E:\Учеба ИСИТ\ПрогСП\springproject)
+""2023-11-05 17:23:33 [restartedMain] INFO  b.i.s.SpringprojectApplication - No active profile set, falling back to 1 default profile: "default"
+""2023-11-05 17:23:33 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2023-11-05 17:23:33 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2023-11-05 17:23:34 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'templateEngine' defined in class path resource [org/springframework/boot/autoconfigure/thymeleaf/TemplateEngineConfigurations$DefaultTemplateEngineConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.thymeleaf.TemplateEngineConfigurations$DefaultTemplateEngineConfiguration; factoryMethodName=templateEngine; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/boot/autoconfigure/thymeleaf/TemplateEngineConfigurations$DefaultTemplateEngineConfiguration.class]] for bean 'templateEngine' since there is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=webConfig; factoryMethodName=templateEngine; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [by/iba/springproject/config/WebConfig.class]] bound.
+""2023-11-05 17:23:34 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+""2023-11-05 17:23:34 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'templateEngine', defined in class path resource [org/springframework/boot/autoconfigure/thymeleaf/TemplateEngineConfigurations$DefaultTemplateEngineConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [by/iba/springproject/config/WebConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+""2023-11-05 17:24:13 [restartedMain] INFO  b.i.s.SpringprojectApplication - Starting SpringprojectApplication using Java 20.0.2 with PID 6776 (E:\Учеба ИСИТ\ПрогСП\springproject\target\classes started by User in E:\Учеба ИСИТ\ПрогСП\springproject)
+""2023-11-05 17:24:13 [restartedMain] INFO  b.i.s.SpringprojectApplication - No active profile set, falling back to 1 default profile: "default"
+""2023-11-05 17:24:13 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2023-11-05 17:24:13 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2023-11-05 17:24:14 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'templateEngine' defined in class path resource [org/springframework/boot/autoconfigure/thymeleaf/TemplateEngineConfigurations$DefaultTemplateEngineConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.thymeleaf.TemplateEngineConfigurations$DefaultTemplateEngineConfiguration; factoryMethodName=templateEngine; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springframework/boot/autoconfigure/thymeleaf/TemplateEngineConfigurations$DefaultTemplateEngineConfiguration.class]] for bean 'templateEngine' since there is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=webConfig; factoryMethodName=templateEngine; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [by/iba/springproject/config/WebConfig.class]] bound.
+""2023-11-05 17:24:14 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+""2023-11-05 17:24:14 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'templateEngine', defined in class path resource [org/springframework/boot/autoconfigure/thymeleaf/TemplateEngineConfigurations$DefaultTemplateEngineConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [by/iba/springproject/config/WebConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+"
